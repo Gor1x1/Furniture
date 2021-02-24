@@ -1,6 +1,6 @@
 /* Header Container Start */
 .header-bg {
-  background-image: url(/img/Furniture-Slide_4.jpg);
+  background-image: url(/img/Furniture_header_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -128,44 +128,44 @@
 /* ====== Main Strat ====== */
 
 /* == Shop By Room Container Start === */
-.shop-container{
-    text-align: center;
-    padding-top: 80px;
-    margin-bottom: 100px;
+.shop-container {
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 100px;
 }
-.shop-header{
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: 400;
-    margin-bottom: 25px;
+.shop-header {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 25px;
 }
-.shop-text{
-    font-size: 18px;
-    color: #000000;
-    font-weight: 300;
+.shop-text {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 300;
 }
-.shop-categories{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 130px;
+.shop-categories {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 130px;
 }
-.categories-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.categories-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.categories-text{
-    text-transform: uppercase;
-    font-size: 18px;
-    color: #999999;
-    font-weight: 400;
-    text-align: center;
+.categories-text {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #999999;
+  font-weight: 400;
+  text-align: center;
 }
-.categories-item:hover svg{
-    cursor: pointer;
-    fill: #ffcc33;
+.categories-item:hover svg {
+  cursor: pointer;
+  fill: #ffcc33;
 }
 /* === Shop By Room Container Start === */
 
