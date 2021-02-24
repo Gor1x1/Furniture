@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat" sans-serif;
+}
+div[class$="-inner"]{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+tspan { 
+    white-space: pre; 
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    transform: translateY(2px);
+    transition: transform .2s linear;
+}
+.text-shadow:hover{
+    opacity: 0.4;
+    transition: .2s;
+}
+.box-shadow:hover{
+    box-shadow: 0 0 3px #000;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p, span, a{
+    letter-spacing: 0.6px;
+}

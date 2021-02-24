@@ -1,0 +1,172 @@
+/* Header Container Start */
+.header-bg {
+  background-image: url(/img/Furniture-Slide_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 895px;
+}
+.furniture-heading-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 70px 0;
+  margin-bottom: 30px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-icon {
+  margin-right: 5px;
+}
+.main-text {
+  font-size: 23px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.secondary-text {
+  font-size: 10px;
+  color: #cccccc;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.header-basket {
+  position: relative;
+}
+.quantity-selected {
+  position: absolute;
+  top: 10%;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ffcc33;
+}
+.quantity-selected p {
+  font-size: 6px;
+  padding: 1px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+}
+/* ====== Nav Conatainer Start ====== */
+
+.nav-list-item {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.nav-list-item li {
+  margin-right: 15px;
+}
+.nav-list-item a {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+}
+/* ====== Nav Container End ====== */
+/* Header Contanier End */
+
+/* ====== Slide Heading Start ====== */
+.slide-heading-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 240px 70px;
+}
+.slide-items {
+  text-align: center;
+}
+.slide-headding {
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+.slide-text {
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn a {
+  margin-right: 20px;
+}
+.left-btn,
+.right-btn {
+  background-color: #ffcc33;
+  padding: 20px 50px;
+  border-radius: 5px;
+}
+.left-btn p,
+.right-btn p {
+  font-size: 14px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+.border {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #fff;
+  padding: 18px 48px;
+}
+.shadow:hover {
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000;
+}
+/* ====== Slide Heading  End */
+
+/* ====== Main Strat ====== */
+
+/* == Shop By Room Container Start === */
+.shop-container{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+.shop-header{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.shop-text{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+}
+.shop-categories{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.categories-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories-text{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #999999;
+    font-weight: 400;
+    text-align: center;
+}
+.categories-item:hover svg{
+    cursor: pointer;
+    fill: #ffcc33;
+}
+/* === Shop By Room Container Start === */
+
+/* ====== Main End ====== */
