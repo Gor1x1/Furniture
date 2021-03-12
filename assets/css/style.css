@@ -1,6 +1,6 @@
 /* Header Container Start */
 .header-bg {
-  background-image: url(/img/Furniture_header_img.jpg);
+  background-image: url("../img/Furniture_header_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -201,7 +201,7 @@
   color: #333333;
   font-weight: 400;
   margin-bottom: 80px;
-}            
+}
 .ch_ta-btn {
   width: 196px;
   background-color: #ffcc33;
@@ -214,23 +214,72 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-/* 
-  harcnem vonc anem vor a
-  tegy vekali ira bloki chapov voch 
-  te obshi toxy 
- */
 
 /* === Chairs and Tables Info Container End */
 
 /* === Colections Container Start === */
 .collections-bg {
   background-color: #edefed;
+  padding: 100px 0;
 }
 .collections-header {
   font-size: 24px;
   text-transform: uppercase;
-  padding-top: 100px;
+  margin-bottom: 40px;
   color: #000000;
+  font-weight: 700;
+  text-align: center;
+}
+.collections-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 200px;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+.collections-grid_items:nth-child(2){
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.collections-grid_items:nth-child(3){
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.collections-grid_items:hover .collections-grid-img-bg{
+  opacity: 0;
+  transition: opacity .4s ease-in-out;
+  cursor: pointer;
+}
+.collections-grid_items {
+  position: relative;
+}
+.collections-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.collections-grid-img-bg {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.collections-grid-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
   font-weight: 700;
   text-align: center;
 }
