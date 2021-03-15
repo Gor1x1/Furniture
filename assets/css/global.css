@@ -38,3 +38,9 @@ a{
 h1, h2, h3, h4, h5, h6, p, span, a{
     letter-spacing: 0.6px;
 }
+input:focus{
+    outline: none;
+}
+li{
+    list-style-type: none;
+}
